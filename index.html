@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Prototypes</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='script.js'></script>
+</head>
+
+<body>
+  <h1>Prototypes and 'This'</h1>
+
+  <p class='subheading'>There are four types of binding:</p>
+
+  <ul>
+    <li>Window binding</li>
+  </ul>
+
+  <h2>Window Binding</h2>
+
+  <p>Using the <span>this</span> keyword without any context will default to <span>binding</span> to the Window object.
+    For example, writing <code>this.alert('Hello, friend')</code> will create an alert in the browser.
+  </p>
+
+  <p>If you write <code>console.log(this)</code>, you will see the Window object in the console with all of the
+    browser's properties such as
+    <code>alert, confirm, cookieStore, document, length, localStorage, onmouseover, etc</code>.
+  </p>
+
+  <p>The Window can be thought of as the 'highest' object in JavaScript.</p>
+</body>
+
+</html>
